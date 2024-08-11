@@ -137,9 +137,13 @@
       background-color:black;
       scroll-behavior: smooth;
 }
+body {
+cursor: pointer; 
+}
 h1{
       color: red;
 }
+
 
 
 .one h2 span{
