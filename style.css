@@ -137,9 +137,10 @@
       background-color:black;
       scroll-behavior: smooth;
 }
-body {
-cursor: pointer; 
-}
+ body{
+      cursor:cell;
+} 
+
 h1{
       color: red;
 }
