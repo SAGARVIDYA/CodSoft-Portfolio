@@ -56,9 +56,32 @@
             border: 5px solid whitesmoke; 
             box-sizing: border-box;
 }
-.btn{
-      color: chartreuse;
-}
+.label {
+      position: relative;
+      top: -1px;
+    }
+    
+    .transition {
+      transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+      transition-duration: 500ms;
+      background-color: rgba(16, 185, 129, 0.6);
+      border-radius: 9999px;
+      width: 0;
+      height: 0;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    button:hover .transition {
+      width: 14em;
+      height: 14em;
+    }
+    
+    button:active {
+      transform: scale(0.97);
+    }
 
 .skills{
       display: flex;
@@ -124,6 +147,7 @@ h1{
 }
 p,h3{
       color: aqua;
+      font:bolder
 }
 h2{
       color: red;
